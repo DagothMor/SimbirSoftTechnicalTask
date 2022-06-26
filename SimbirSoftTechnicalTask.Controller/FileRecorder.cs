@@ -6,7 +6,7 @@ namespace SimbirSoftTechnicalTask.Controller
 	/// <summary>
 	/// Writes a file on the path
 	/// </summary>
-	public static class FileRecorder
+	public static class FileController
 	{
 		/// <summary>
 		/// Starts the process

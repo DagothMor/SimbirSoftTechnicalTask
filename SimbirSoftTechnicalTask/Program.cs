@@ -6,7 +6,7 @@ namespace SimbirSoftTechnicalTask.Core
 	{
 		static void Main(string[] args)
 		{
-			MainMenuGreetings.MainMenu();
+			MainMenuStateMachine.MainMenu();
 		}
 	}
 }

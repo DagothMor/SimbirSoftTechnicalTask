@@ -16,8 +16,8 @@ namespace SimbirSoftTechnicalTask.Controller
 		{
 			var htmltext = GetHtmlTextThroughRequest.Start(url);
 			var txtFromWebPage = ExtractPlainTextFromHtmlPage.Start(htmltext);
-			FileRecorder.Start(txtFromWebPage);
-			DisplayCountOfWords.Start();
+			FileController.Start(txtFromWebPage);
+			TextController.DisplayCountOfWords();
 		}
 	}
 }

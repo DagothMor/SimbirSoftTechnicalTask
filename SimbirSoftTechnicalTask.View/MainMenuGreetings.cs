@@ -7,7 +7,7 @@ namespace SimbirSoftTechnicalTask.View
 	/// <summary>
 	/// Console view to interact with the user.
 	/// </summary>
-	public static class MainMenuGreetings
+	public static class MainMenuStateMachine
 	{
 		/// <summary>
 		/// Main menu in application.
